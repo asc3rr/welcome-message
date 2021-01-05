@@ -41,4 +41,4 @@ Text message that is played after logging into system.
 ```
 
 ## Bugs
-Special characters not supported
+- [] Special characters not supported
