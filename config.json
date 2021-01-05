@@ -1,0 +1,35 @@
+{
+    "dir":"./",
+    "weather":{
+        "api_key":"cfb793950e16e59d783b34b43178a0cd",
+        "city":"Wroclaw",
+        "celcius":true,
+        "kph":true
+    },
+    "what_to_say":{
+        "weather":{
+            "snow":true,
+            "temp":true,
+            "cloudiness":true,
+            "wind_speed":true
+        },
+        "date":{
+            "date":true,
+            "hour":true
+        }
+    },
+    "data_to_say":{
+        "weather":{
+            "snow":{
+                "pos":"Możliwe opady śniegu",
+                "neg":"Dzisiaj nie są przewidziane opady śniegu"
+            },
+            "temp":"Dzisiaj mamy :temp:°C",
+            "cloudiness":"Zachmurzenie na poziomie :cloudiness:%",
+            "wind_speed":"Prędkość wiatru: :wind_speed: km/h"
+        },
+        "date":"Dzisiaj jest :date:",
+        "hour":"Jest godzina :hour:",
+        "language":"pl"
+    }
+}
